@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>Contacto | Hacendados Magazine</title>
+	<meta name="description" content="" >
+	<meta name="keywords" content="">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<link rel="shortcut icon" type="image/x-icon" href="imgs/icono_h.ico" />
+
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/jquery.fancybox.css" />
+	<link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+	<section class="sub_sec_fondo_grey container">
+		<div class="loader" ></div>	
+		<div id="inicio_top" ></div>	
+		<div class="menu_sub_secciones fnd_menu_rojo">
+			<div>
+				<p><b>CONTACTO</b></p>
+				<img class="img_menu_vdo" src="imgs/ico_contacto.png" alt="">
+			</div>
+			<a href="index.html"><img src="imgs/close_blc.png" alt=""></a>
+		</div>
+		<div class="cont_contacto">
+			<div>
+				<p id="p_contct_img">
+					<img src="imgs/ico_h.png" alt="">
+				</p>
+				<p>
+					Envíe su solicitud a: <br> advertising@hacendados.com <br> o llene el formulario a continuación.
+				</p>
+			</div>
+			<form id="form_contacto">
+				<div>
+					<label for="nombre">Nombre:</label>
+					<input type="text" id="nombre" name="name" class="" title="Tu Nombre" />
+				</div>						
+				<div>
+					<label for="email">e-Mail:</label>
+					<input type="email" id="email" name="email" class="" title="Tu email" />
+				</div>						
+				<div>
+					<label for="asunto">Asunto:</label>
+					<input type="text" id="asunto" name="subject" class="" title="Asunto a tratar" />
+				</div>						
+				<div>
+					<label for="mensajes">Mensaje:</label>
+					<textarea id="mensajes" name="message" class="" cols="50" rows="7" title="Tus Mensajes" ></textarea>
+				</div>				
+			</form>
+			<div id="input_submit">
+				<div>advertising@hacendados.com <br> 999 456 7890</div>
+				<input type="submit" class="" value="Enviar" />
+			</div>
+			<p id="span_exito" class="span_cnto">Tu correo se envio con &eacute;xito. ¡Gracias!</p>
+			<p id="span_error" class="span_cnto">Tu correo no se pudo enviar.</p>
+			<p id="span_mensaje" class="span_cnto">Enviando...</p>	
+
+			<div id="p_contct_div">
+				<p>Calle #34, <br> Col. Por Deﬁnir. <br> C.P. 84323 <br> Mérdia, Yucatán; México.</p>
+				<p id="p_contct_lgo"><img src="imgs/Logo_Negro.png" alt=""></p>
+			</div>
+		</div>
+		<footer></footer>
+	</section>
+
+	<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+	<script>
+		!window.jQuery && document.write("<script src='js/jquery.min.js'><\/script>");
+	</script>
+	<script src="js/efectos.js"></script>
+	<script src="js/jquery.bxslider.min.js"></script>
+	<script src="js/jquery.fancybox.js"></script>
+	<script>$(document).on("ready",cargarEfectos);</script>
+</body>
+</html>
+
+
+
+

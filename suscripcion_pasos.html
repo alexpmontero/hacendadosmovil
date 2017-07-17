@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>Suscripción | Hacendados Magazine</title>
+	<meta name="description" content="" >
+	<meta name="keywords" content="">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<link rel="shortcut icon" type="image/x-icon" href="imgs/icono_h.ico" />
+
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+	<section class="sub_sec_fondo_grey container">
+		<div class="loader" ></div>	
+		<div id="inicio_top" ></div>	
+		<div class="menu_sub_secciones fnd_menu_rojo">
+			<div>
+				<p><b>SUSCRIPCIÓN</b></p>
+			</div>
+			<a href="suscripcion.html"><img src="imgs/close_blc.png" alt=""></a>
+		</div>
+		<div id="suscrip_pasos_ttl" class="suscrip_pasos">
+			<i><b>Datos de la orden</b> <br> Paso 1 de 3</i>
+		</div>
+		<div id="suscrip_paso1" class="">			
+			<form id="form_suscrip">
+				<div>
+					<input type="text" id="nombre" class="" name="nombre" title="Tu Nombre" placeholder="Nombre" pattern="[A-Za-zÑñÁáÉéÍíÓóÚúÜü\s]+" required />
+				</div>
+				<div>
+					<input type="text" id="apellidos" class="" name="apellidos" title="Tus Apellidos" placeholder="Apellidos" pattern="[A-Za-zÑñÁáÉéÍíÓóÚúÜü\s]+" required />
+				</div>
+				<div>
+					<input type="text" id="ciudad" class="" name="ciudad" title="Tu Ciudad" placeholder="Ciudad" required />
+				</div>
+				<div>
+					<input type="text" id="estado" class="" name="estado" title="Tu Estado" placeholder="Estado" required />
+				</div>
+				<div>
+					<input type="text" id="cp" class="" name="cp" title="Tu C.P." placeholder="Código Postal" />
+				</div>
+				<div>
+					<input type="text" id="telefono" class="" name="telefono" title="Tu Tel&eacute;fono" placeholder="Tel&eacute;fono" />
+				</div>
+				<div>
+					<input type="email" id="email" class="" name="email" title="Tu E-mail" placeholder="E-Mail" required />
+				</div>										
+		<!-- 		<div id="submit">
+					<input type="submit" class="" value="Enviar" />
+				</div> -->
+			</form>
+			<span id="span_exito" class="span_cnto">Tu correo se envio con &eacute;xito. ¡Gracias!</span>
+			<span id="span_error" class="span_cnto">Tu correo no se pudo enviar.</span>
+		</div>
+		<div id="" class="suscrip_pasos">
+			<i><b>Datos de la orden</b> <br>Paso 2 de 3</i>
+		</div>
+		<div id="suscrip_paso2" class="">
+			<div>
+				<h3>Tipo de tarjeta</h3>
+				<div class="paso2_opc">
+					<input type="radio" id="ame_express" name="tipo_tarjeta">
+					<label for="ame_express"><img src="imgs/susc_img1.png" alt=""></label>				
+				</div>
+				<div class="paso2_opc">
+					<input type="radio" id="master_card" name="tipo_tarjeta">
+					<label for="master_card"><img src="imgs/susc_img2.png" alt=""></label>
+				</div>
+				<div class="paso2_opc">
+					<input type="radio" id="visa" name="tipo_tarjeta">
+					<label for="visa"><img src="imgs/susc_img3.png" alt=""></label>
+				</div>				
+			</div>
+			<div>
+				<h3>Pago con PayPal</h3>
+				<div class="paso2_opc">
+					<input type="radio" id="pay_pal" name="pago">
+					<label for="pay_pal"><img src="imgs/susc_img4.png" alt=""></label>				
+				</div>
+			</div>
+			<div id="div_num_tarjeta">
+				<input type="text" id="num_tarjeta" class="" name="num_tarjeta" title="Número de tarjeta" placeholder="Número de tarjeta" required />
+			</div>
+			<div id="div_fch_expiracion">
+				<h3>Fecha de Expiración</h3>
+				<div class="">
+					<input type="text" id="dia_expiracion" class="" name="dia_expiracion" title="Dia de expiración" placeholder="DD" required /> -
+					<input type="text" id="mes_expiracion" class="" name="mes_expiracion" title="Mes de expiración" placeholder="MM" required />			
+				</div>			
+			</div>	
+		</div>
+		<div id="" class="suscrip_pasos">
+			<i><b>Datos de la orden</b> <br>Paso 3 de 3</i>
+		</div>
+		<div id="suscrip_paso3" class="">
+			<input type="checkbox" name="" value=""> He leído y estoy de acuerdo con los <u><a href="#">términos y condiciones.</a></u> <br> <br>
+			<input type="checkbox" name="" value=""> Deseo recibir notiﬁcaciones y noticias al correo electrónico proporcionado.
+			<div>
+				<P>*Añadir información que le de seguridad al comprador tanto acerca de la conservación de sus datos, así como del envío de sus compras. Además de cualquier otra información pertinente en letras pqueñas.</P>
+				<P>**Ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ac feugiat sapien. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. </P>
+				<P>***Sed aliquet turpis sed dui fermentum, non facilisis felis ultricies. Integer vel diam ut nisl ﬁ nibus ullamcorper a non ante. Nulla id velit in felis convallis pretium quis a velit. </P>
+				<p>****Curabitur eget consectetur enim. Praesent nec justo quis metus pharetra egestas. Vivamus ut scelerisque magna. Aenean quis vestibulum ex. Aliquam ornare risus at dolor tincidunt, nec vulputate leo hendrerit. Phasellus onvallis sodales auctor.</p>
+			</div>
+		</div>
+		<div class="submit_suscrip btn_suscrip_sig">
+			<input type="submit" class="" value="Realizar Pago" />
+		</div>	
+		<footer></footer>
+	</section>
+
+	<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+	<script>
+		!window.jQuery && document.write("<script src='js/jquery.min.js'><\/script>");
+	</script>
+	<script src="js/efectos.js"></script>
+	<script src="js/jquery.bxslider.min.js"></script>
+	<script src="js/jquery.fancybox.js"></script>
+	<script>$(document).on("ready",cargarEfectos);</script>
+</body>
+</html>
+
+
+
+
